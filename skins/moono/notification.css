@@ -152,7 +152,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 
 .cke_notification_close span
 {
-	display: none;
+	display: block; //fix from 'none'
 }
 
 .cke_notification_warning a.cke_notification_close
